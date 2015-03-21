@@ -7,26 +7,26 @@ empty space in the file/folder names.**
 
 ## data structure
 in the activity_lables.txt file:
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
 This labels the activity with number 1-6
 
 The features.txt file contains 561 rows describing the pre-processed signal.
 First several rows:
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
-7 tBodyAcc-mad()-X
-8 tBodyAcc-mad()-Y
-9 tBodyAcc-mad()-Z
-10 tBodyAcc-max()-X
+* 1 tBodyAcc-mean()-X
+* 2 tBodyAcc-mean()-Y
+* 3 tBodyAcc-mean()-Z
+* 4 tBodyAcc-std()-X
+* 5 tBodyAcc-std()-Y
+* 6 tBodyAcc-std()-Z
+* 7 tBodyAcc-mad()-X
+* 8 tBodyAcc-mad()-Y
+* 9 tBodyAcc-mad()-Z
+* 10 tBodyAcc-max()-X
 
 The features_info.txt contains the information describing the feature above.
 
