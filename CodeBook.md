@@ -13,6 +13,7 @@ in the activity_lables.txt file:
 * 4 SITTING
 * 5 STANDING
 * 6 LAYING
+
 This labels the activity with number 1-6
 
 The features.txt file contains 561 rows describing the pre-processed signal.
@@ -40,7 +41,8 @@ X_test.txt contains the measurement of the 561 features in the features.txt file
 it contains 2947 rows and 561 columns
 
 y_test.txt contains the activity label (1-6) for each row of the X_test.txt, it contains 2947 rows.
-cat y_test.txt| sort | uniq -c
+
+```cat y_test.txt| sort | uniq -c```
  * 496 1
  * 471 2
  * 420 3
@@ -50,7 +52,8 @@ cat y_test.txt| sort | uniq -c
  
 subject_test.txt contains the subject ID for each row of the X_test.txt.
 It also contains 2947 rows:
-cat subject_test.txt| sort | uniq -c
+
+```cat subject_test.txt| sort | uniq -c```
  * 294 10
  * 320 12
  * 327 13
